@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background-color: #FFB84C;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  color: #070000;
+  font-size: 6rem;
+}
+
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  color: #070000;
+  font-size: 3rem;
+}
+
+h2.titles {
+  margin: 5%;
+  background-color: #FFB84C;
+  border-radius: 15%;
+}
+
+.nav-title {
+  background-color: #FFB84C;
+}
+.nav-list {
+  text-align: center;
+  margin: auto;
+}
+
+.top-section {
+  background-color: #FFFAE7;
+  padding: 2%;
+}
+
+.middle-section {
+  background-color: #FFFAE7;
+  width: 100%;
+}
+
+.egg-cards {
+  margin: 4%;
+  border-radius: 5%;
+}
+
+#stopButton {
+  padding: 3%;
+  font-size: 3rem;
+  font-family:'Chakra Petch', sans-serif;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#testiImg {
+  border-top-left-radius: 61%;
+  border-top-right-radius: 88%;
+  border-bottom-left-radius: 84%;
+  border-bottom-right-radius: 62%;
+  transform: rotate(14deg);
+  /*make the image rotate*/
+  margin: 5% 0 8% 0;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  filter: brightness(0.7);
+
+}
+
+.egg-image-home {
+  border-top-left-radius: 61%;
+  border-top-right-radius: 88%;
+  border-bottom-left-radius: 84%;
+  border-bottom-right-radius: 62%;
+  transform: rotate(11deg);
+  margin: 5%;
+  filter: saturate(3);
+}
+
+#footer {
+  background-color: #FFB84C;
+  padding: 18%;
+  margin-bottom: 0;
+}
+
+.ready-btn {
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+}
